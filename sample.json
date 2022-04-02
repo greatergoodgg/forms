@@ -1,0 +1,236 @@
+{
+  "1": {
+    "name": "Relations & Functions",
+    "content": {
+      "SA": {
+        "1": "drive.google.com/xxxxxx",
+        "2": "drive.google.com/xxxxxx",
+        "3": "drive.google.com/xxxxxx",
+        "4": "drive.google.com/xxxxxx",
+        "5": "drive.google.com/xxxxxx",
+        "6": "drive.google.com/xxxxxx",
+        "7": "drive.google.com/xxxxxx",
+        "8": "drive.google.com/xxxxxx"
+      },
+      "misc": []
+    }
+  },
+  "2": {
+    "name": "Inverse Trigonometric Functions",
+    "content": {
+      "SA": {
+        "1": "drive.google.com/xxxxxx",
+        "2": "drive.google.com/xxxxxx",
+        "3": "drive.google.com/xxxxxx",
+        "4": "drive.google.com/xxxxxx",
+        "5": "drive.google.com/xxxxxx"
+      },
+      "misc": [
+        {
+          "name": "Misc Questions",
+          "link": "drive.google.com/xxxxxx"
+        }
+      ]
+    }
+  },
+  "3": {
+    "name": "Matrices",
+    "content": {
+      "SA": {
+        "1": "drive.google.com/xxxxxx",
+        "2": "drive.google.com/xxxxxx",
+        "3": "drive.google.com/xxxxxx",
+        "4": "drive.google.com/xxxxxx",
+        "5": "drive.google.com/xxxxxx"
+      },
+      "misc": [
+        {
+          "name": "Word Problems 1",
+          "link": "drive.google.com/xxxxxx"
+        },
+        {
+          "name": "Word Problems 2",
+          "link": "drive.google.com/xxxxxx"
+        }
+      ]
+    }
+  },
+  "4": {
+    "name": "Determinants",
+    "content": {
+      "SA": {
+        "1": "drive.google.com/xxxxxx",
+        "2": "drive.google.com/xxxxxx",
+        "3": "drive.google.com/xxxxxx"
+      },
+      "misc": [
+        {
+          "name": "Word Problems 1",
+          "link": "drive.google.com/xxxxxx"
+        },
+        {
+          "name": "Word Problems 2",
+          "link": "drive.google.com/xxxxxx"
+        },
+        {
+          "name": "Word Problems 3",
+          "link": "drive.google.com/xxxxxx"
+        }
+      ]
+    }
+  },
+  "5": {
+    "name": "Continuity and Differentiability",
+    "content": {
+      "SA": {},
+      "misc": [
+        {
+          "name": "Misc Questions",
+          "link": "drive.google.com/xxxxxx"
+        }
+      ]
+    }
+  },
+  "6": {
+    "name": "Application of Derivatives",
+    "content": {
+      "SA": {},
+      "misc": [
+        {
+          "name": "Word Problems 1",
+          "link": "drive.google.com/xxxxxx"
+        },
+        {
+          "name": "Word Problems 2",
+          "link": "drive.google.com/xxxxxx"
+        },
+        {
+          "name": "Word Problems 3",
+          "link": "drive.google.com/xxxxxx"
+        },
+        {
+          "name": "Word Problems 4",
+          "link": "drive.google.com/xxxxxx"
+        }
+      ]
+    }
+  },
+  "7": {
+    "name": "Integrals",
+    "content": {
+      "SA": {
+        "1": "drive.google.com/xxxxxx"
+      },
+      "misc": []
+    }
+  },
+  "8": {
+    "name": "Application of Integrals",
+    "content": {
+      "SA": {
+        "1": "drive.google.com/xxxxxx"
+      },
+      "misc": [
+        {
+          "name": "Misc Questions",
+          "link": "drive.google.com/xxxxxx"
+        }
+      ]
+    }
+  },
+  "9": {
+    "name": "Differential Equations",
+    "content": {
+      "SA": {},
+      "misc": []
+    }
+  },
+  "10": {
+    "name": "Vector Algebra",
+    "content": {
+      "SA": {
+        "1": "drive.google.com/xxxxxx",
+        "2": "drive.google.com/xxxxxx",
+        "3": "drive.google.com/xxxxxx",
+        "4": "drive.google.com/xxxxxx",
+        "5": "drive.google.com/xxxxxx"
+      },
+      "misc": [
+        {
+          "name": "Word Problems 1",
+          "link": "drive.google.com/xxxxxx"
+        },
+        {
+          "name": "Word Problems 2",
+          "link": "drive.google.com/xxxxxx"
+        }
+      ]
+    }
+  },
+  "11": {
+    "name": "Three Dimensional Geometry",
+    "content": {
+      "SA": {
+        "1": "drive.google.com/xxxxxx",
+        "2": "drive.google.com/xxxxxx",
+        "3": "drive.google.com/xxxxxx",
+        "4": "drive.google.com/xxxxxx",
+        "5": "drive.google.com/xxxxxx"
+      },
+      "misc": [
+        {
+          "name": "Word Problems 1",
+          "link": "drive.google.com/xxxxxx"
+        },
+        {
+          "name": "Word Problems 2",
+          "link": "drive.google.com/xxxxxx"
+        }
+      ]
+    }
+  },
+  "12": {
+    "name": "Linear Programming",
+    "content": {
+      "SA": {
+        "1": "drive.google.com/xxxxxx",
+        "2": "drive.google.com/xxxxxx",
+        "3": "drive.google.com/xxxxxx",
+        "4": "drive.google.com/xxxxxx",
+        "5": "drive.google.com/xxxxxx"
+      },
+      "misc": [
+        {
+          "name": "Word Problems 1",
+          "link": "drive.google.com/xxxxxx"
+        },
+        {
+          "name": "Word Problems 2",
+          "link": "drive.google.com/xxxxxx"
+        }
+      ]
+    }
+  },
+  "13": {
+    "name": "Probability",
+    "content": {
+      "SA": {
+        "1": "drive.google.com/xxxxxx",
+        "2": "drive.google.com/xxxxxx",
+        "3": "drive.google.com/xxxxxx",
+        "4": "drive.google.com/xxxxxx",
+        "5": "drive.google.com/xxxxxx"
+      },
+      "misc": [
+        {
+          "name": "Word Problems 1",
+          "link": "drive.google.com/xxxxxx"
+        },
+        {
+          "name": "Word Problems 2",
+          "link": "drive.google.com/xxxxxx"
+        }
+      ]
+    }
+  }
+}

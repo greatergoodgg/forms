@@ -1,0 +1,95 @@
+{
+  "1": {
+    "name": "Relations & Functions",
+    "content": {
+      "SA": {},
+      "misc": []
+    }
+  },
+  "2": {
+    "name": "Inverse Trigonometric Functions",
+    "content": {
+      "SA": {},
+      "misc": []
+    }
+  },
+  "3": {
+    "name": "Matrices",
+    "content": {
+      "SA": {
+        "1":"https://drive.google.com/file/d/1SexamZg4kUFNTPK9f7eC0tNXk8J_7Mes/preview"
+      },
+      "misc": []
+    }
+  },
+  "4": {
+    "name": "Determinants",
+    "content": {
+      "SA": {},
+      "misc": []
+    }
+  },
+  "5": {
+    "name": "Continuity and Differentiability",
+    "content": {
+      "SA": {},
+      "misc": []
+    }
+  },
+  "6": {
+    "name": "Application of Derivatives",
+    "content": {
+      "SA": {},
+      "misc": []
+    }
+  },
+  "7": {
+    "name": "Integrals",
+    "content": {
+      "SA": {},
+      "misc": []
+    }
+  },
+  "8": {
+    "name": "Application of Integrals",
+    "content": {
+      "SA": {},
+      "misc": []
+    }
+  },
+  "9": {
+    "name": "Differential Equations",
+    "content": {
+      "SA": {},
+      "misc": []
+    }
+  },
+  "10": {
+    "name": "Vector Algebra",
+    "content": {
+      "SA": {},
+      "misc": []
+    }
+  },
+  "11": {
+    "name": "Three Dimensional Geometry",
+    "content": {
+      "SA": {},
+      "misc": []
+    }
+  },
+  "12": {
+    "name": "Linear Programming",
+    "content": {
+      "SA": {},
+      "misc": []
+    }
+  },
+  "13": {
+    "name": "Probability",
+    "content": {
+      "SA": {},
+      "misc": []
+    }
+  }
+}

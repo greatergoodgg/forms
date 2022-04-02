@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Empty PDF</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+      body {
+        background-color: rgb(56, 56, 56);
+        color: white;
+        margin-top: 10vh;
+      }
+      #bigicon {
+        font-size: 100px;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+      }
+      p {
+        text-align: center;
+        font-size: 25px;
+        font-family: "Patua One";
+      }
+      #verticalcenter {
+        position: relative;
+        top: 50%;
+        animation-name: idle;
+        animation-duration: 3s;
+        animation-fill-mode: both;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-delay: 3s;
+      }
+      @keyframes idle {
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(10px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="verticalcenter">
+      <span class="material-icons" id="bigicon">visibility</span>
+      <p>
+        Click on your desired solution page from the sidebar to view it here
+      </p>
+    </div>
+  </body>
+</html>

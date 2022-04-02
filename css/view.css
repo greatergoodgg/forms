@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Klee+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+body {
+  font-family: "Klee One", cursive;
+  background-color: #0d1117;
+  color: white;
+  margin: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+div.header {
+  font-size: 35px;
+  background-color: #161b22;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px;
+}
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 40px; }
+h1 {
+  text-align: center;
+  font-family: "Dela Gothic One";
+  position: fixed;
+  margin-top: 7.5px;
+  /* left: 50%; */
+  /* transform: translateX(-25%); */
+  width: 100%
+}
+p.p1 {
+  text-align: center;
+  color: rgb(82, 215, 238);
+  font-size: 30;
+  margin: 10px 0px 0px 0px;
+}
+table.nav {
+  text-align: center;
+  border-spacing: 10px;
+  font-size: 22px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+td.tbl {
+  background-color: rgb(0, 47, 59);
+  border-radius: 10px;
+  /* width:260px; */
+  border: 2px solid transparent;
+  padding: 5px;
+  transition: 0.3s;
+}
+#blocked:hover {
+  cursor: no-drop;
+  background-color: darkred;
+}
+td:hover {
+  background-color: #11485e;
+  border: 2px solid rgb(62, 145, 145);
+  box-shadow: 0px 5px 25px rgb(42, 85, 87);
+  transition: 0.2s;
+}
+div.footer {
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+  font-size: 22px;
+  overflow: hidden;
+  position: fixed;
+  color: rgba(255, 255, 255, 0.458);
+  bottom: 0;
+  width: 100%;
+}
+a img {
+  transition: 0.4s;
+}
+a img:hover {
+  filter: brightness(150%);
+  transition: 0.2s;
+}
+.link {
+  width: 100%;
+  height: 100%;
+}
+div.section-top {
+  width: 260px;
+}
+.grade {
+  height: 400px;
+  background-color: rgb(100, 100, 100);
+  margin: 75px 5vw;
+  margin-top: 2000px;
+  border-radius: 10px;
+  /* padding: 10px; */
+}
+.grade h2 {
+  text-align: center;
+  padding: 20px;
+}
+.gridbtn {
+  height: 100px;
+  width: calc(20vw);
+  margin: 5px 2.5vw;
+  display: block;
+  overflow: hidden;
+}
+.gridbtn p {
+  line-height: 0;
+}
+
+iframe {
+  height: 75vh;
+  width: 60vw;
+  margin: 20px;
+  margin-top: 75px;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgb(46, 46, 46);
+}
+#sidebar {
+  background-color: rgb(105, 89, 125);
+  box-shadow: 0 20px 30px rgb(53, 34, 59);
+  position: fixed;
+  right: 40px;
+  top: 70px;
+  height: 75vh;
+  width: 30vw;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+.container {
+  background-color: rgb(46, 39, 61);
+  height: 200px;
+  margin: 20px;
+  padding: 10px;
+  width: calc(100% -40px);
+  box-shadow: 0 10px 15px rgba(53, 34, 59, 0.586);
+  border-radius: 10px;
+}
+.container h3 {
+  text-align: center;
+  padding-bottom: 5px;
+  background-color: rgb(246, 244, 249);
+  border-radius: 10px;
+  color: rgb(82, 82, 82);
+  box-shadow: 0 10px 30px rgba(34, 8, 64, 0.44);
+}
+.container button {
+  border: none;
+  color: rgb(209, 200, 218);
+  background-color:rgb(71, 66, 76);
+  box-shadow: 0 20px 20px rgba(28, 27, 29, 0.479);
+  margin: 5px;
+  padding: 2.5px;
+  font-size: 20px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Klee One";
+  transition: 0.8s
+}
+.container button:hover {
+  transition: 0.2s;
+  background-color: rgb(216, 191, 237);
+  box-shadow: 0 0 50px rgb(128, 0, 255);
+  color: rgb(182, 17, 243);
+  text-shadow: 0 5px 5px rgb(128, 0, 255);
+}
+.container button:active {
+  transition: 0.2s;
+  background-color: rgb(182, 17, 243);
+  box-shadow: 0 0 50px rgb(255, 0, 221);
+  color: rgb(255, 255, 255);
+  text-shadow: 0 5px 5px rgb(128, 0, 255);
+}
+#SAcontainer button {
+  width: 75px;
+}
+#MISCcontainer button {
+  width: fit-content;
+  padding: 0 15px;
+}
+#pagination {
+  position: fixed;
+  left: 50%;
+  bottom: 30px;
+  width: fit-content;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+#pagination button {
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  cursor: pointer;
+
+  background-color: rgb(0, 53, 55);
+  color: rgb(158, 230, 232);
+  transition: 0.5s;
+}
+#pagination button:hover {
+  background-color: rgb(148, 251, 255);
+  color: rgb(14, 75, 77);
+  transition: 0.2s;
+  box-shadow: 0 0 20px cyan;
+}
+#pagination button:disabled {
+  background-color: rgb(55, 55, 55);
+  color: rgb(141, 141, 141);
+  cursor: not-allowed;
+}
+#pagination button:disabled:hover {
+  background-color: rgb(255, 55, 55);
+  box-shadow: 0 0 20px red;
+  color: rgb(82, 0, 0);
+}
+#prevchap, #nextchap {
+  width: calc(50% - 100px);
+  position: fixed;
+  padding: 10px;
+  text-shadow: 0 0 10px cyan;
+  color: white;
+  bottom: 35px;
+  font-family: "Courier Prime";
+}
+#prevchap {
+  text-align: right;
+  left: 0px;
+}
+#nextchap {
+  text-align: left;
+  right: 0px;
+}

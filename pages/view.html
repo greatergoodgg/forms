@@ -1,0 +1,35 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <title>View - Maths Forms</title>
+    <link rel="stylesheet" type="text/css" href="../css/view.css" />
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.png" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <style></style>
+  </head>
+  <body class="body">
+    <h1 id="htitle">Name of Chapter</h1>
+    <iframe src="./emptypdf.html" frameborder="0" id="pdfviewer"></iframe>
+    <div id="sidebar"></div>
+    <div id="pagination">
+      <div id="pagbtngrp">
+        <button id="prevbtn">
+          <span class="material-icons md-36"> first_page </span>
+        </button>
+        <button onclick="window.location.href = '../index.html'">
+          <span class="material-icons md-36"> home </span>
+        </button>
+        <button id="nextbtn">
+          <span class="material-icons md-36"> last_page </span>
+        </button>
+      </div>
+    </div>
+    <code id="prevchap"></code>
+    <code id="nextchap"></code>
+    <div class="footer">&lt; Developed by Greater Good © 2022 /&gt;</div>
+    <script src="../js/view.js"></script>
+  </body>
+</html>

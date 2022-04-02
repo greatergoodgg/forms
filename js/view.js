@@ -1,9 +1,9 @@
 window.onload = async function () {
-  const data = await fetch("../data.json").then((e) => e.json());
+  const data = await fetch("https://raw.githubusercontent.com/greatergoodgg/forms/main/data.json").then((e) => e.json());
   const urldata = new URL(window.location.href).search.replace("?", "");
 
   if (urldata.length > 5)
-    window.location.href = `/pages/view.html?${urldata.slice(0, 5)}`;
+    window.location.href = `https://greatergoodgg.github.io/forms/pages/view.html?${urldata.slice(0, 5)}`;
   if (!urldata.match(/\d\d[a-zA-Z]\d\d/)) tpTo404();
 
   const chapnum = parseInt(urldata.slice(0, 2)).toString();
@@ -61,7 +61,7 @@ window.onload = async function () {
       let btn = document.createElement("button");
       btn.innerHTML = `#${i.toString().length == 2 ? i : "0" + i}`;
       btn.addEventListener("click", function () {
-        window.location.href = `/pages/view.html?${
+        window.location.href = `https://greatergoodgg.github.io/forms/pages/view.html?${
           chapnum.toString().length == 2 ? chapnum : "0" + chapnum
         }s${i.toString().length == 2 ? i : "0" + i}`;
         document
@@ -115,7 +115,7 @@ window.onload = async function () {
       }
       chaptag.innerHTML = `${data[testindex].name}`;
       btn.onclick = async function () {
-        window.location.href = `/pages/view.html?${
+        window.location.href = `https://greatergoodgg.github.io/forms/pages/view.html?${
           testindex.toString().length == 2 ? testindex : "0" + testindex
         }n00`;
       };
@@ -139,5 +139,5 @@ function checkForContent(i) {
 }
 
 function tpTo404() {
-  window.location.href = "../pages/404.html";
+  window.location.href = "https://greatergoodgg.github.io/forms/pages/404.html";
 }

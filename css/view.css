@@ -31,6 +31,7 @@ h1 {
   font-family: "Dela Gothic One";
   position: fixed;
   margin-top: 7.5px;
+  font-size: 30px;
   /* left: 50%; */
   /* transform: translateX(-25%); */
   width: 100%
@@ -120,6 +121,7 @@ iframe {
   margin-top: 75px;
   border-radius: 10px;
   box-shadow: 0 20px 30px rgb(46, 46, 46);
+  transition: 1s;
 }
 #sidebar {
   background-color: rgb(105, 89, 125);
@@ -131,10 +133,11 @@ iframe {
   width: 30vw;
   border-radius: 10px;
   overflow-y: auto;
+  z-index: 50;
 }
 .container {
   background-color: rgb(46, 39, 61);
-  height: 200px;
+  height: fit-content;
   margin: 20px;
   padding: 10px;
   width: calc(100% -40px);
@@ -198,8 +201,9 @@ iframe {
   outline: none;
   height: 50px;
   width: 50px;
-  border-radius: 30px;
+  border-radius: 100px;
   cursor: pointer;
+  z-index: 100;
 
   background-color: rgb(0, 53, 55);
   color: rgb(158, 230, 232);
@@ -225,10 +229,10 @@ iframe {
   width: calc(50% - 100px);
   position: fixed;
   padding: 10px;
-  text-shadow: 0 0 10px cyan;
+  text-shadow: 10px 10px 20px cyan, 10px -10px 20px cyan, -10px -10px 20px cyan, -10px 10px 20px cyan;
   color: white;
   bottom: 35px;
-  font-family: "Courier Prime";
+  font-family: "Courier Prime";  z-index: 10;
 }
 #prevchap {
   text-align: right;
@@ -237,4 +241,74 @@ iframe {
 #nextchap {
   text-align: left;
   right: 0px;
+}
+#sidebartoggler {
+  position: fixed;
+  border: none;
+  outline: none;
+  height: 80px;
+  width: 80px;
+  border-radius: 100px 0 0 100px;
+  cursor: pointer;
+  z-index: 100;
+  right: 0px;
+  bottom: 30px;;
+
+  background-color: rgb(39, 0, 55);
+  color: rgb(204, 158, 232);
+  transition: 0.5s;
+  z-index: 30;
+  visibility: hidden;
+}
+
+
+@media (max-width: 900px) {
+  #prevchap, #nextchap {
+    visibility: hidden;
+  }
+  h1 {
+    font-size: 3.5vw;
+    margin-top: 10px;
+  }
+  iframe {
+    width: 100%;
+    margin: 75px 0 0 0;
+    border-radius: 0px;
+    height: 80vh;
+  }
+  div.footer {
+    font-size: 16px;
+  }
+  #sidebar {
+    position: fixed;
+    top: 80px;
+    right: -100vw;
+    width: calc(100vw - 40px);
+    height: 80vh;
+    transition: 0.5s;
+  }
+  #MISCcontainer button {
+    width: calc(100% - 10px);
+  }
+  #sidebartoggler {
+    visibility: visible;
+  }
+  #pagination button {
+    height: 80px;
+    width: 80px;
+  }
+}
+@media (max-width: 400px) {
+  #SAcontainer button {
+    width: calc(100% - 10px);
+  }
+  #pagination button {
+    height: 60px;
+    width: 60px;
+  }
+  #sidebartoggler {
+    height: 60px;
+    width: 60px;
+    bottom: 35px;
+  }
 }

@@ -182,3 +182,34 @@ padding-top: 5px;
   margin: 10px;
   margin-top: 5px;
 }
+
+@media (max-width: 900px) {
+  .gridbtn {
+    width: calc(50% - 20px);
+  }
+  #sampleholder {
+    width: 90vw;
+  }
+  .btnsample {
+    width: calc(50% - 30px);
+  }
+  p.p1 {
+    margin: 30px 10px;
+    font-size: 0.8em;
+  }
+  h1 {
+    font-size: 27.5px;
+  }
+  div.footer {
+    font-size: 16px;
+  }
+}
+@media (max-width: 400px){
+  .gridbtn {
+    width: calc(100% - 10px);
+  }
+  .btnsample {
+    width: calc(50% - 30px);
+  }
+  
+}

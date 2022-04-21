@@ -141,3 +141,18 @@ function checkForContent(i) {
 function tpTo404() {
   window.location.href = "https://greatergoodgg.github.io/forms/pages/404.html";
 }
+
+var SBtoggled = false;
+document
+  .getElementById("sidebartoggler")
+  .addEventListener("click", function () {
+    if (!SBtoggled) {
+      document.getElementById("sidebar").style.right = "20px";
+      SBtoggled = true;
+      console.log("Sidebar expanded");
+    } else {
+      document.getElementById("sidebar").style.right = "-100vw";
+      SBtoggled = false;
+      console.log("Sidebar collapsed");
+    }
+  });
